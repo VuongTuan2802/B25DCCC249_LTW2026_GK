@@ -12,7 +12,7 @@ const Home = ({ expenses }) => {
     <div>
       <h1>Chi tiêu cá nhân</h1>
       <div>Tổng số khoản chi: {totalCount}</div>
-      <div>Tổng số tiền đã chi: {formatMoney(totalAmount)}</div>
+      <div>Tổng số tiền phải chi: {formatMoney(totalAmount)}</div>
       <div>Tổng số tiền chưa thanh toán: {formatMoney(totalUnpaid)}</div>
     </div>
   );
